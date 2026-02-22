@@ -1,8 +1,14 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gaming Alex | YouTube Channel</title>  <!-- Google Font -->  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">  <style>
+  <title>Gaming Alex | YouTube Channel</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <style>
     * {
       margin: 0;
       padding: 0;
@@ -26,6 +32,12 @@
       font-weight: 800;
       color: #00ffd5;
       letter-spacing: 2px;
+    }
+
+    header h2 {
+      font-size: 2rem;
+      color: #e0e0e0;
+      margin-top: 10px;
     }
 
     header p {
@@ -115,48 +127,67 @@
         font-size: 2.5rem;
       }
     }
-  </style></head>
-<body>  <header>
-  <marquee>WATCH MY LATEST FREE FIRE VIDEO</marquee>
-  <h1>Welcome to My Website</h1>
-    <h2>&reg;Gaming Alex</h2>
-    <p>Level Up Your Gaming Experience </p>
-  </header>  <div class="container">
-    <div class="card">
-      <h2>About the Channel</h2>
-      <p>
-        <i>
-        Welcome to <strong>Gaming Alex</strong> your ultimate destination for thrilling gameplay, intense battles,
-        pro tips, and pure entertainment. Here, gaming is not just a hobby, it's a lifestyle.
-        </i>
-      </p>
-    </div><div class="card">
-  <h2>What You will Find Here</h2>
-  <p>
-      &#128293;Action-packed gameplay<br>
-      &#127919;Pro strategies & tricks<br>
-      &#128514;Fun moments & challenges<br>
-       &#128511;Latest gaming content
-  </p>
 
-  <div class="tags">
-    <span class="tag">#GamingAlex</span>
-    <span class="tag">#ProGaming</span>
-    <span class="tag">#GamingLife</span>
-    <span class="tag">#NoobToPro</span>
+    /* --- Fade-in & slide-up animation --- */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1s ease forwards;
+    }
+
+    .fade-up.delay-1 { animation-delay: 0.3s; }
+    .fade-up.delay-2 { animation-delay: 0.6s; }
+    .fade-up.delay-3 { animation-delay: 0.9s; }
+    .fade-up.delay-4 { animation-delay: 1.2s; }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <marquee>WATCH MY LATEST FREE FIRE VIDEO</marquee>
+  <h1 class="fade-up delay-1">Welcome to My Website</h1>
+  <h2 class="fade-up delay-2">&reg;Gaming Alex</h2>
+  <p class="fade-up delay-3">Level Up Your Gaming Experience</p>
+</header>
+
+<div class="container">
+  <div class="card fade-up delay-2">
+    <h2>About the Channel</h2>
+    <p><i>Welcome to <strong>Gaming Alex</strong>, your ultimate destination for thrilling gameplay, intense battles, pro tips, and pure entertainment. Here, gaming is not just a hobby, it's a lifestyle.</i></p>
+  </div>
+
+  <div class="card fade-up delay-3">
+    <h2>What You Will Find Here</h2>
+    <p>
+      &#128293; Action-packed gameplay<br>
+      &#127919; Pro strategies & tricks<br>
+      &#127514; Fun moments & challenges<br>
+      &#128511; Latest gaming content
+    </p>
+
+    <div class="tags fade-up delay-4">
+      <span class="tag">#GamingAlex</span>
+      <span class="tag">#ProGaming</span>
+      <span class="tag">#GamingLife</span>
+      <span class="tag">#NoobToPro</span>
+    </div>
+  </div>
+
+  <div class="subscribe fade-up delay-3">
+    <a href="https://youtube.com/@gamingalex27?si=g-Rd9MZ7d60TNJYZ/" target="_blank">Subscribe on YouTube</a>
   </div>
 </div>
 
-<div class="subscribe">
-  <a href="https://youtube.com/@gamingalex27?si=g-Rd9MZ7d60TNJYZ/"@GamingAlex"target="_blank">Subscribe on YouTube </a>
-</div>
+<footer class="fade-up delay-4">
+  © 2026 Gaming Alex | All Rights Reserved
+</footer>
 
-  </div>  <footer>
-    © 2026 Gaming Alex | All Rights Reserved
-  </footer></body>
-
+</body>
 </html>
-
-
-
-
