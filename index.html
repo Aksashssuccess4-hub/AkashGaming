@@ -17,6 +17,20 @@
     }
 
     body {
+      <!-- Background Music -->
+<audio id="bgMusic" loop>
+  <source src="freefire.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playMusic()" style="position:fixed;bottom:20px;right:20px;padding:10px 20px;border:none;border-radius:10px;">
+Play Music
+</button>
+
+<script>
+function playMusic() {
+  document.getElementById("bgMusic").play();
+}
+</script>
       background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
       color: #fff;
       min-height: 100vh;
@@ -191,3 +205,4 @@
 
 </body>
 </html>
+
